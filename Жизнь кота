@@ -1,0 +1,29 @@
+class Cat():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greeting(self):
+        print(f"Котик {self.name}. Ему {self.age}")
+
+step1 = Cat(name="Появился", age = 1)
+step2 = Cat(name="Покушал", age = 2)
+step3 = Cat(name="Спит", age = 3)
+step4 = Cat(name="Попрыгал", age = 4)
+step5 = Cat(name="Побегал", age = 5)
+step6 = Cat(name="Покушал", age = 6)
+step7 = Cat(name="Спит", age = 7)
+step8 = Cat(name="Побегал", age = 8)
+step9 = Cat(name="Спит", age = 9)
+step10 = Cat(name="Ушёл из нашего мира...Земля ему пухом...", age = 10)
+
+step1.greeting()
+step2.greeting()
+step3.greeting()
+step4.greeting()
+step5.greeting()
+step6.greeting()
+step7.greeting()
+step8.greeting()
+step9.greeting()
+step10.greeting()
