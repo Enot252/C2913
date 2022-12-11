@@ -1,0 +1,47 @@
+class Human():
+    def __init__(self, name, hp):
+        self.name = name
+        self.points = 20
+        self.hp = 100
+    def handKick(self):
+        pass
+
+class Berserk(Human):
+    def __init__(self, name):
+
+        def swordKick(self):
+            self.sword_attack = 15
+    
+            def shieldKick(self):
+                self.shiald_attack = 10   
+        
+        def evasion(self):
+            self.evasion = 2
+
+class Wiz(Human):
+    def __init__(self, name):
+        self.points = 25
+    
+    def fireball(self):
+        self.fireball_attack = 25
+    
+    def tp(self):
+        self.tp = 5
+
+class Archer(Human):
+    def __init__(self, name):
+        
+        def archery(self):
+            self.arrow_attack = 15
+        
+        def secrecy(self):
+            self.name = None
+        
+h = Human(1, 100)
+b = Berserk(2)
+w = Wiz(3)
+a = Archer(4)
+        
+        
+        
+        
