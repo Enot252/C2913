@@ -1,0 +1,69 @@
+class Human():
+    def __init__(self, name, hp):
+        self.name = name
+        self.hp = 100
+        
+class Lord(Human):
+    def __init__(self, name):
+        super(name)
+        self.income = 25
+        self.costs = 10
+        self.tax = 0
+        
+class Berserk(Human):
+    def __init__(self, name):
+        super(name)
+        self.income = 25
+        self.costs = 5
+        self.tax = 0
+        def handKick(self):
+            self.hand_attack = 5 
+        
+class Peaceful(Human):
+    def __init__(self, name):
+        super(name)
+        self.income = 15
+        self.costs = 5
+        self.tax = 5
+        
+class KingLord(Lord):
+    def __init__(self, name):
+        super(name)
+        self.income = 50
+        self.costs = 20
+        self.tax = 0
+class ClerkLord(Lord):
+    def __init__(self, name):
+        super(name)
+        self.tax = 5        
+        
+class WarLord(Berserk):
+    def __init__(self, name):
+        super(name)
+        self.income = 35
+        self.costs = 20
+        self.tax = 0  
+        def handKick(self):
+            self.hand_attack = 10 
+class Swordsman(Berserk):
+    def __init__(self, name):
+        super(name)
+        def swordKick(self):
+            self.sword_attack = 20
+class Cudgelman(Berserk):
+    def __init__(self, name):
+        super(name)
+        def cudgelKick(self):
+            self.cudgel_attack = 10
+            
+class Farmer(Peaceful):
+    def __init__(self, name):
+        super(name)
+class Pastoralist(Peaceful):
+    def __init__(self, name):
+        super(name)        
+class Holy_father(Peaceful):
+    def __init__(self, name):
+        super(name)
+        self.tax = 0
+        
