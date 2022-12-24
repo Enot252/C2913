@@ -1,0 +1,25 @@
+class Car:
+    def __init__(self, name, drive):
+        self.name = name
+        self.drive = drive
+
+class Human:
+    def __init__(self, name):
+        self.name = name
+        self.state = 0
+        self.skill = None
+
+    def stateUP(self):
+        self.state += 1
+        if self.state == 1:
+            print("Нажми 1 что бы ехать")
+            ch = int(input("-> "))
+            self.skill = ch
+
+    def useSkill(self, car):
+        if self.skill == 1:
+            self.drive(car)
+            print(f"Бр бр бр бр *типо едем*")
+
+
+        
