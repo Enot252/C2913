@@ -1,0 +1,12 @@
+import random
+
+l = ["WWW", "QQQ", "LLL", "DDD"]
+it = iter(l)
+
+def generator(a: int, b: int):
+    n = 1000
+    while n > 0:
+        yield n
+        n -= random.randint(a, b)
+        
+print(l)
