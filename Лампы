@@ -1,0 +1,37 @@
+class Lightbulb():  
+    def __init__(self, name, company, x, y, color, lumin, volt): 
+        self.name = name
+        self.company = company
+        self.x = x
+        self.y = y
+        self.lumin = lumin
+        self.volt = volt
+        self.color = color
+        
+    def light():
+        if self.is_on == False:
+            self.lumin == 0
+        else:  
+            self.lumin = 1200
+
+class Halogen(Lightbulb):
+    def __init__(self, name, company, volt) -> None:
+        super().__init__(name, company, 2, 3, "red", 1600, volt)
+
+class Diode(Lightbulb):
+    def __init__(self, name, company, volt) -> None:
+        super().__init__(name, company, 7, 8, "white", 150, volt)
+        
+class GasDischarge(Lightbulb):
+    def __init__(self, name, company, volt) -> None:
+        super().__init__(name, company, 10, 4, "orange", 900, volt)        
+        
+class Quartz(Lightbulb):
+    def __init__(self, name, company, volt) -> None:
+        super().__init__(name, company, 6, 3, "violet", 500, volt)        
+        
+class UV(Lightbulb):
+    def __init__(self, name, company, volt) -> None:
+        super().__init__(name, company, 8, 8, "violet", 720, volt)               
+        
+        
